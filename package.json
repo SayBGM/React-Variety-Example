@@ -1,0 +1,7 @@
+{
+  "name": "react-variety-example",
+  "version": "0.1.0",
+  "scripts": {
+    "start:rxjs": "node rxjs-example/scripts/start.js"
+  }
+}
