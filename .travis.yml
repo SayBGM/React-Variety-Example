@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "stable"
+before_script:
+  - cd rxjs-example
+  - npm install
+cache:
+  directories:
+  - node_modules
+script:
+  - npm test
